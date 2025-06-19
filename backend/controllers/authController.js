@@ -40,3 +40,11 @@ export const loginUser = async (req,res) => {
         res.status(400).json({ message: 'Server error'});
     }
 };
+
+
+//Function for Dashboard
+
+
+export const dashboard = (req,res) => {
+    res.json({ message:'Welcome to your dashboard!'});
+};
